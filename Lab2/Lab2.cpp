@@ -3,9 +3,27 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    float A;
+    float B;
+    float X;
+
+    cout << "Golly, looks like you've got yourself a linear equation!" << endl;
+    cout << "Ax + B = 0" << endl;
+    cout << "Please enter a value for A: ";
+    cin >> A;
+
+    cout << "Please enter a value for B: ";
+    cin >> B;
+
+    cout << endl;
+    cout << "Solving for " << A << "x + " << B << " = 0" << endl;
+    X = -1 * B / A;
+    cout << endl;
+    cout << "X equals " << X << endl; 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
